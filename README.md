@@ -1,6 +1,6 @@
-# vux脚手架
+# vux+vuex脚手架
 
-> ZZDh5
+>里面有两个模块的demo(支持ios6和安卓4)
 
 ## Build Setup
 
