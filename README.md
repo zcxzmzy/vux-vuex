@@ -3,8 +3,8 @@
 >这个版本适用于喜欢用状态管理的小伙伴，里面有两个模块的demo(支持ios6和安卓4)，可以选用pug和less
 
 >使用方法主要功能点
-接口路径-----api/data
-1接口调取方法，直接在页面组件中引入，例如import {getOrderList} from '@/api/data'
+>接口路径-----api/data
+>1接口调取方法，直接在页面组件中引入，例如import {getOrderList} from '@/api/data'
 然后直接getOrderList(arg).then(//在这里面处理逻辑就行了)
 接口可配置参数
     params[0].url || 0,
@@ -24,7 +24,7 @@
     })
 }
     
-2组件模块和状态模块的方法
+>2组件模块和状态模块的方法
 如果想新增一个模块，首先在page里面建一个组件文件夹，这个模块的所有页面组件写在这个文件下面，然后在store/modules下面建一个状态js,
 mutation-types.js里面的mutation常量是所有模块共用的，通过注释区分
 
