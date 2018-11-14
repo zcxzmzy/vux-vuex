@@ -1,6 +1,6 @@
 <template lang="pug">
     div.index
-       div 首页
+       div.ceshi 首页
 </template>
 <script>
     import mixin from '../mixins/mixinLogin'
@@ -36,8 +36,12 @@
 </script>
 
 <style lang="less">
+    @import "mixin/base";
     .index {
-
+         .ceshi{
+             .bg(#cccccc);
+             .center()
+         }
     }
 
 

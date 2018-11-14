@@ -1,0 +1,141 @@
+//常用的布局基础less封装，使用的时候，将其引入即可
+
+
+@import 'color';
+
+.p4(@v,@y,@x,@z){
+  padding:@v @y @x @z
+}
+.bs(@a,@b,@c,@d,@e){
+  box-shadow: @a @b @c @d @e
+}
+.border(@v,@y,@x){
+  border:@v @y @x
+}
+.fs(@e){
+  font-size: @e;
+}
+.fw(@e){
+  font-weight: @e;
+}
+.bb(@e,@v,@b){
+  border-bottom: @e @v @b;
+}
+.bt(@e,@v,@b){
+  border-top: @e @v @b;
+}
+.bg(@e){
+  background: @e;
+}
+.color(@e){
+  color:@e
+}
+.br(@e){
+  border-radius: @e;
+}
+.flex(){
+  display: flex;
+}
+.fd(@e){
+  flex-direction: @e;
+}
+.ai(@e){
+  align-items: @e;
+}
+.jc(@e){
+  justify-content: @e;
+}
+.fd(@v){
+  flex-direction: @v;
+}
+.center(){
+  align-items: center;
+  justify-content: center;
+}
+.centerY{
+  align-items: center;
+}
+.centerX{
+  justify-content: center;
+}
+.fj(){
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pa(){
+  position: absolute;
+}
+.pf(){
+  position: fixed;
+}
+.z(@e){
+  z-index: @e;
+}
+.ta(@e){
+  text-align: @e;
+}
+
+.pr(@a){
+  padding-right: @a;
+}
+.p(@v){
+  padding:@v;
+}
+.p4(@up,@right,@bottom,@left){
+  padding: @up @right @bottom @left;
+}
+.p2(@v,@y){
+  padding:@v @y
+}
+.pl(@e){
+  padding-left: @e;
+}
+
+.pt(@e){
+  padding-top: @e;
+}
+.op(@e){
+  opacity: @e;
+}
+.pb(@e){
+  padding-bottom: @e;
+}
+.m2(@updown,@leftright){
+  margin:@updown @leftright;
+}
+.m4(@up,@right,@bottom,@left){
+  margin: @up @right @bottom @left;
+}
+.mr(@e){
+  margin-right: @e;
+}
+.ml(@e){
+  margin-left: @e;
+}
+.mt(@e){
+  margin-top: @e;
+}
+.mb(@e){
+  margin-bottom:@e;
+}
+.h(@e){
+  height: @e;
+}
+.w(@e){
+  width: @e;
+}
+
+.of{
+  overflow: scroll;
+}
+.jc(@v){
+  justify-content: @v;
+}
+
+
+
+
+
+
+
+

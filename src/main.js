@@ -25,10 +25,6 @@ const goPage = (page)=>{
   })
 }
 
-const state = {
-  isShowTabbar:true
-}
-
 /*公共toast*/
 
 Vue.prototype.showToast = function( showPositionValue,type,text,width="10em"){

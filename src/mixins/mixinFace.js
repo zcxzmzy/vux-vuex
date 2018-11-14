@@ -1,6 +1,7 @@
 
 export default {
   methods:{
+    /**人脸识别***/
     dataURLtoFile(dataurl, filename) {
       let arr = dataurl.split(',')
       let mime = arr[0].match(/:(.*?);/)[1]
