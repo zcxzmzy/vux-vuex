@@ -18,12 +18,6 @@
         created(){
             const arr = this.$store.getters["repay/ceshiGetters"]
             const gettersFn = this.$store.getters["repay/moneySum"](56)
-
-            console.log("===========")
-            console.log(arr)
-            console.log(gettersFn)
-            console.log("------------")
-            console.log(this.ceshiAction())
         },
         methods:{
             ...mapActions("repay",[

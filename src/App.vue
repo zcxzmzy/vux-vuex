@@ -27,10 +27,10 @@
             .w(375px);
             .h(667px)
             .flex();
-            .m2(0, auto)
+            .m2(0, auto);
             .tabbarStyle {
-                .w(100%)
-                .m2(0, auto)
+                .w(100%);
+                .m2(0, auto);
             }
         }
     }
