@@ -2,7 +2,7 @@
 
 >这个版本适用于喜欢用状态管理的小伙伴，里面有两个模块的demo(支持ios6和安卓4)，可以选用pug和less
 
-#使用方法主要功能点
+1使用方法主要功能点
 接口路径-----api/data
 接口调取方法，直接在页面组件中引入，例如import {getOrderList} from '@/api/data'
 然后直接getOrderList(arg).then(//在这里面处理逻辑就行了)
