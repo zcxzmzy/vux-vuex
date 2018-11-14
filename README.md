@@ -1,6 +1,6 @@
-# zhouzhoudai
+# vux+vuex脚手架
 
-> ZZDh5
+>这个版本适用于喜欢用状态管理的小伙伴，里面有两个模块的demo(支持ios6和安卓4)，可以选用pug和les
 
 ## Build Setup
 
